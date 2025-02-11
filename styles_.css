@@ -13,7 +13,7 @@ body {
   padding: 20px;
 }
 
-header {
+header *{
   text-align: center;
   background-color: #C9FAFE;
   color: white;
