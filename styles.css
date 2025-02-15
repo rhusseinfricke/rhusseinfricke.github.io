@@ -8,9 +8,23 @@
 /* Styling the body of the page */
 body {
   font-family: Arial, sans-serif; /* Font family for the entire page */
+  display: flex;
+  flex-direction: row;
   background-color: #f4f4f4; /* Light gray background color for the page */
   padding: 20px; /* Padding around the content to give space between the edges of the browser and the content */
 }
+
+.sidebar {
+background: lightskyblue; 
+width: 20%;
+padding: 1em;
+}
+
+.content{
+  background: white;
+  width: 80%;
+}
+
 
 /* Container to hold the panels, using flexbox to arrange them */
 .container {
@@ -53,4 +67,6 @@ body {
   .panel {
     width: 100%; /* Full width for each panel when the screen is small */
   }
+  
+
 }
